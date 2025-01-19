@@ -152,7 +152,10 @@ const Navbar = () => {
 
             <div className="flex justify-center items-center m-auto">
               <button
-                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                onClick={() => {
+                  setTheme(theme === "dark" ? "light" : "dark");
+                  closeMenu();
+                }}
                 className="p-3 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-white transition-colors"
                 aria-label="Toggle dark mode"
               >
