@@ -9,31 +9,57 @@ type TechnologyCategory = {
 };
 
 const technologiesData: TechnologyCategory[] = [
+  // {
+  //   title: "Frontend",
+  //   icon: <FaReact className="text-4xl bg-sky-600 rounded-lg p-1 text-white" />,
+  //   technologies: ["React", "Next.js", "JavaScript", "TypeScript", "Tailwind CSS"],
+  // },
+  // {
+  //   title: "Backend",
+  //   icon: <FaNodeJs className="text-4xl bg-sky-600 rounded-lg p-1 text-white" />,
+  //   technologies: ["Node.js", "Express"],
+  // },
+  // {
+  //   title: "Databases",
+  //   icon: <FaDatabase className="text-4xl bg-sky-600 rounded-lg p-1 text-white" />,
+  //   technologies: ["MongoDB", "MySQL"],
+  // },
+  // {
+  //   title: "Tools",
+  //   icon: <FaTools className="text-4xl bg-sky-600 rounded-lg p-1 text-white" />,
+  //   technologies: ["GitHub", "Jira", "Postman", "Supabase"],
+  // },
   {
-    title: "Frontend",
-    icon: <FaReact className="text-4xl bg-sky-600 rounded-lg p-1 text-white" />,
-    technologies: ["React", "Next.js", "JavaScript", "TypeScript", "Tailwind CSS"],
-  },
-  {
-    title: "Backend",
-    icon: <FaNodeJs className="text-4xl bg-sky-600 rounded-lg p-1 text-white" />,
-    technologies: ["Node.js", "Express"],
-  },
-  {
-    title: "Databases",
-    icon: <FaDatabase className="text-4xl bg-sky-600 rounded-lg p-1 text-white" />,
-    technologies: ["MongoDB", "MySQL"],
-  },
-  {
-    title: "Tools",
+    title: "Programming Languages",
     icon: <FaTools className="text-4xl bg-sky-600 rounded-lg p-1 text-white" />,
-    technologies: ["GitHub", "Jira", "Postman", "Supabase"],
+    technologies: ["Typescript", "JavaScript", "SQL", "C", "C++"],
   },
+  {
+    title: "Frontend /UI",
+    icon: <FaTools className="text-4xl bg-sky-600 rounded-lg p-1 text-white" />,
+    technologies: ["HTML", "CSS", "React JS"],
+  },
+  {
+    title: "Database",
+    icon: <FaTools className="text-4xl bg-sky-600 rounded-lg p-1 text-white" />,
+    technologies: ["Mongo DB", "Supabase", "MySQL"],
+  },
+  {
+    title: "Frameworks & Libraries",
+    icon: <FaTools className="text-4xl bg-sky-600 rounded-lg p-1 text-white" />,
+    technologies: ["Bootstrap", "Express JS", "Node JS", "Tailwind CSS", "Next JS"],
+  },
+  {
+    title: "Frameworks & Libraries",
+    icon: <FaTools className="text-4xl bg-sky-600 rounded-lg p-1 text-white" />,
+    technologies: ["Git", "GitHub", "Jira", "GSAP", "Technical tools handling", "Postman", "Thunder client", "DSA", "OOPS" ],
+  },
+
 ];
 
 const SkillLists: React.FC = () => {
   return (
-    <div id="technologies" className="px-4 py-12 bg-white md:h-[80vh] dark:bg-slate-900">
+    <div id="technologies" className="px-4 py-12 bg-white md:h-[100vh] dark:bg-slate-900">
       <h2 className="text-3xl font-bold text-center mb-6 tracking-wider">Technologies</h2>
       <div className="mt-6 border-t border-slate-600 pt-6 w-[80vw] mx-auto"></div>
       <motion.div initial={{ opacity: 0, y: 100 }}

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Experience = () => {
   return (
-    <div id="experience" className="bg-gray-100 pb-10 md:h-[70vh] dark:bg-slate-900">
+    <div id="experience" className="bg-gray-100 pb-10 md:h-[50vh] dark:bg-slate-900">
       <div className="w-[90vw] mx-auto md:p-8 p-3">
         <h1 className="text-3xl font-bold px-6 text-center tracking-wider">
           Experience
@@ -11,7 +11,7 @@ const Experience = () => {
         <div className="mt-6 border-t border-slate-600 pt-6"></div>
         <div className="flow-root">
           <ul className="-mb-8">
-            <motion.li
+            {/* <motion.li
               initial={{ opacity: 0, y: 100 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{
@@ -79,7 +79,7 @@ const Experience = () => {
                   </div>
                 </div>
               </div>
-            </motion.li>
+            </motion.li> */}
             <motion.li
               initial={{ opacity: 0, y: 100 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -136,7 +136,7 @@ const Experience = () => {
                         </span>
                       </div>
                       <span className="whitespace-nowrap text-sm dark:text-slate-300">
-                        July 2024 - Present
+                        April 2024 - Present
                       </span>
                     </div>
                     <div className="mt-2 text-gray-700 dark:text-slate-200">

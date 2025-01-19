@@ -152,7 +152,7 @@ const Contact: React.FC = () => {
                         />
                       </svg>
                       <h5 className="text-black text-base font-normal leading-6 ml-5">
-                        Keshavnagar, Mundhwa, Pune - 411036
+                        Pune, Maharashtra
                       </h5>
                     </div>
                     <div className="mt-6">

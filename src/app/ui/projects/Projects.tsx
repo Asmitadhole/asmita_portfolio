@@ -10,13 +10,13 @@ const projects = [
       "The Wild Oasis (Admin App) is a comprehensive admin solution crafted to simplify cabin stay management for hotel staff.",
     tech: ["React", "React Query", "Supabase", "Component CSS"],
     images: ["/Project1.png", "/Project1.2.png", "/Project1.3.png"],
-    github: "",
-    live: "",
+    github: "https://github.com/Asmitadhole/the-wild-oasis",
+    live: "https://the-wild-oasis-inky-five.vercel.app/",
   },
   {
     title: "The Wild Oasis (Customer-App)",
     description:
-      "The Wild Oasis (Customer-App) website allows users to explore, book, and manage cabin hotel stays effortlessly.",
+      "This website allows users to explore, book, and manage cabin hotel stays effortlessly.",
     tech: ["Next.js", "Javascript", "Supabase", "React Query", "Tailwind CSS"],
     images: [
       "/Project2.png",
@@ -24,8 +24,8 @@ const projects = [
       "/Project2.3.png",
       "/Project2.4.png",
     ],
-    github: "",
-    live: "",
+    github: "https://github.com/Asmitadhole/the-wild-oasis-userWebsite",
+    live: "https://the-wild-oasis-user-website-nine.vercel.app/",
   },
   {
     title: "Online Pizza Store",
@@ -33,8 +33,8 @@ const projects = [
       "Online pizza store that allows users to browse, add pizzas to their cart, and place orders effortlessly.",
     tech: ["React", "Javascript"],
     images: ["/Project3.png", "/Project3.2.png"],
-    github: "",
-    live: "",
+    github: "https://github.com/Asmitadhole/online-pizza-store",
+    live: "https://online-pizza-store-topaz.vercel.app/",
   },
   {
     title: "The Quiz App",
@@ -42,8 +42,8 @@ const projects = [
       "The app allows users to answer multiple-choice questions, tracks their score in real time, and offers an interactive interface.",
     tech: ["React", "Javascript"],
     images: ["/Project6.png", "/Project6.2.png", "/Project6.3.png"],
-    github: "https://github.com/Sahil1849/quiz-app",
-    live: "https://virtual-classroom.com",
+    github: "https://github.com/Asmitadhole/the_quiz_app",
+    live: "https://the-quiz-app-gamma.vercel.app/",
   },
 ];
 
