@@ -107,8 +107,8 @@ const Hero = () => {
               className="rounded-sm rounded-br-[5rem] rounded-tl-[5rem] md:py-0 py-7"
               src={Asmita}
               alt="My Pic"
-              width={800}
-              height={800}
+              width={700}
+              height={700}
             />
           </motion.div>
         </div>

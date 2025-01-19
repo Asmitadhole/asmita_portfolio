@@ -17,6 +17,10 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   const handleScroll = () => {
     const currentScrollPos = window.pageYOffset;
     setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
@@ -45,25 +49,27 @@ const Navbar = () => {
 
           {/* Hamburger menu for small screens */}
           <div className="lg:hidden">
-            <button
-              onClick={toggleMenu}
-              className="text-black focus:outline-none"
-            >
-              <svg
-                className="h-6 w-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
+            {!isOpen && (
+              <button
+                onClick={toggleMenu}
+                className="text-black dark:text-white focus:outline-none"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h16m-7 6h7"
-                ></path>
-              </svg>
-            </button>
+                <svg
+                  className="h-6 w-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M4 6h16M4 12h16m-7 6h7"
+                  ></path>
+                </svg>
+              </button>
+            )}
           </div>
 
           {/* Navigation Links */}
@@ -78,6 +84,7 @@ const Navbar = () => {
               duration={500}
               activeClass="active"
               spy={true}
+              onClick={closeMenu}
               className="cursor-pointer px-4 py-2 hover:text-sky-800 transition-colors"
             >
               Home
@@ -89,6 +96,7 @@ const Navbar = () => {
               duration={500}
               activeClass="active"
               spy={true}
+              onClick={closeMenu}
               className="cursor-pointer px-4 py-2 hover:text-sky-800 transition-colors"
             >
               About
@@ -100,6 +108,7 @@ const Navbar = () => {
               duration={500}
               activeClass="active"
               spy={true}
+              onClick={closeMenu}
               className="cursor-pointer px-4 py-2 hover:text-sky-800 transition-colors"
             >
               Experience
@@ -111,6 +120,7 @@ const Navbar = () => {
               duration={500}
               activeClass="active"
               spy={true}
+              onClick={closeMenu}
               className="cursor-pointer px-4 py-2 hover:text-sky-800 transition-colors"
             >
               Technologies
@@ -122,6 +132,7 @@ const Navbar = () => {
               duration={500}
               activeClass="active"
               spy={true}
+              onClick={closeMenu}
               className="cursor-pointer px-4 py-2 hover:text-sky-800 transition-colors"
             >
               Projects
@@ -134,6 +145,7 @@ const Navbar = () => {
               duration={500}
               activeClass="active"
               spy={true}
+              onClick={closeMenu}
             >
               Contact
             </ScrollLink>

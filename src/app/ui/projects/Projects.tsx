@@ -24,8 +24,8 @@ const projects = [
       "/Project2.3.png",
       "/Project2.4.png",
     ],
-    github: "https://github.com/Asmitadhole/the-wild-oasis-userWebsite",
-    live: "https://the-wild-oasis-user-website-nine.vercel.app/",
+    github: "https://github.com/Asmitadhole/the-wild-oasis-userWebsite-1",
+    live: "https://the-wild-oasis-user-website-1.vercel.app/",
   },
   {
     title: "Online Pizza Store",

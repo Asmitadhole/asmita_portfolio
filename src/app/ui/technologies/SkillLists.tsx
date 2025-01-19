@@ -50,7 +50,7 @@ const technologiesData: TechnologyCategory[] = [
     technologies: ["Bootstrap", "Express JS", "Node JS", "Tailwind CSS", "Next JS"],
   },
   {
-    title: "Frameworks & Libraries",
+    title: "Other technical skills",
     icon: <FaTools className="text-4xl bg-sky-600 rounded-lg p-1 text-white" />,
     technologies: ["Git", "GitHub", "Jira", "GSAP", "Technical tools handling", "Postman", "Thunder client", "DSA", "OOPS" ],
   },
